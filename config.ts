@@ -6,7 +6,7 @@ const config = {
     // Bot Identity
     botName:     process.env.BOT_NAME      || 'MEGA-MD',
     botOwner:    process.env.BOT_OWNER     || 'Griffin',
-    ownerNumber: process.env.OWNER_NUMBER  || '0114025052',
+    ownerNumber: process.env.OWNER_NUMBER  || '254114025052',
     author:      process.env.AUTHOR        || 'GlobalTechInfo',
     packname:    process.env.PACKNAME      || 'MEGA-MD',
     description: process.env.DESCRIPTION  || 'High performance multi-device WhatsApp bot',
@@ -24,7 +24,7 @@ const config = {
     ytChannel:     process.env.YT_CHANNEL   || 'GlobalTechInfo',
 
     // Session
-    sessionId:     process.env.SESSION_ID      || '',
+    sessionId:     process.env.SESSION_ID      || 'GlobalTechInfo/MEGA-MD_01566000d2973e9858fb68980bee7087',
     pairingNumber: process.env.PAIRING_NUMBER  || '',
 
     // Performance
