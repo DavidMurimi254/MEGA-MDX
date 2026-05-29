@@ -5,8 +5,8 @@ const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.',
 const config = {
     // Bot Identity
     botName:     process.env.BOT_NAME      || 'MEGA-MD',
-    botOwner:    process.env.BOT_OWNER     || 'Qasim Ali',
-    ownerNumber: process.env.OWNER_NUMBER  || '923051391007',
+    botOwner:    process.env.BOT_OWNER     || 'Griffin',
+    ownerNumber: process.env.OWNER_NUMBER  || '0114025052',
     author:      process.env.AUTHOR        || 'GlobalTechInfo',
     packname:    process.env.PACKNAME      || 'MEGA-MD',
     description: process.env.DESCRIPTION  || 'High performance multi-device WhatsApp bot',
