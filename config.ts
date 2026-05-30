@@ -15,8 +15,8 @@ const config = {
     // Bot Config
     prefixes:    _prefixes,
     prefix:      _prefixes[0],
-    commandMode: process.env.COMMAND_MODE  || 'private',
-    timeZone:    process.env.TIMEZONE      || '',
+    commandMode: process.env.COMMAND_MODE  || 'public',
+    timeZone:    process.env.TIMEZONE      || 'Asia/Karachi',
 
     // Links
     channelLink:   process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
