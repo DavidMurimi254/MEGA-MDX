@@ -16,7 +16,7 @@ const config = {
     prefixes:    _prefixes,
     prefix:      _prefixes[0],
     commandMode: process.env.COMMAND_MODE  || '',
-    timeZone:    process.env.TIMEZONE      || 'Africa/Kenya',
+    timeZone:    process.env.TIMEZONE      || '',
 
     // Links
     channelLink:   process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
