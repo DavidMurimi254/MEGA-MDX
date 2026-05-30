@@ -15,8 +15,8 @@ const config = {
     // Bot Config
     prefixes:    _prefixes,
     prefix:      _prefixes[0],
-    commandMode: process.env.COMMAND_MODE  || 'public',
-    timeZone:    process.env.TIMEZONE      || 'Asia/Karachi',
+    commandMode: process.env.COMMAND_MODE  || '',
+    timeZone:    process.env.TIMEZONE      || 'Africa/Kenya',
 
     // Links
     channelLink:   process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
@@ -24,7 +24,7 @@ const config = {
     ytChannel:     process.env.YT_CHANNEL   || 'GlobalTechInfo',
 
     // Session
-    sessionId:     process.env.SESSION_ID      || 'GlobalTechInfo/MEGA-MD_01566000d2973e9858fb68980bee7087',
+    sessionId:     process.env.SESSION_ID      || '',
     pairingNumber: process.env.PAIRING_NUMBER  || '',
 
     // Performance
