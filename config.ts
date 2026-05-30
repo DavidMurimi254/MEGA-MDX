@@ -15,7 +15,7 @@ const config = {
     // Bot Config
     prefixes:    _prefixes,
     prefix:      _prefixes[0],
-    commandMode: process.env.COMMAND_MODE  || '',
+    commandMode: process.env.COMMAND_MODE  || 'private',
     timeZone:    process.env.TIMEZONE      || '',
 
     // Links
